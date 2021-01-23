@@ -6,7 +6,7 @@
 * Python 3 installed in your machine.
 * Postman or equivalent tool. 
   * https://www.postman.com/downloads/
-  * Please find my API calls here. https://www.postman.com/collections/640fed8fadedd245e89e
+  * Please find my API calls here. https://www.getpostman.com/collections/640fed8fadedd245e89e
 * Please note that for the MS Windows environment this README.md instructions are different. 
 
 ## Instructions
