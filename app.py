@@ -34,8 +34,7 @@ class AmountsOrder(Resource):
         if not process_json():
             return {'Amounts': None}, 404
         else:
-            sorted_by_amounts = sorted(process_json(), key=lambda x: (-x[1], x[0]))
-            return sorted_by_amounts
+            return sorted(process_json(), key=lambda x: (-x[1], x[0]))
 
 
 # 2. List names in alphabetical order
@@ -44,8 +43,7 @@ class NamesOrder(Resource):
         if not process_json():
             return {'Names': None}, 404
         else:
-            sorted_by_names = sorted(process_json(), key=lambda x: (x[0], x[0]))
-            return sorted_by_names
+            return sorted(process_json(), key=lambda x: (x[0], x[0]))
 
 
 # 3. Return the total amount of all the names

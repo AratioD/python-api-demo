@@ -3,6 +3,8 @@
 ## Requirements
 
 * UNIX based command-line.
+* Admin rights in your machine
+* GIT installed in your machine.
 * Python 3 installed in your machine.
 * Postman or equivalent tool. 
   * https://www.postman.com/downloads/
@@ -29,6 +31,12 @@
   * ``python app.py``
   
 * Use API calls through Postman.
+
+* Use API calls through browser.
+  * http://127.0.0.1:5000/amounts
+  * http://127.0.0.1:5000/names
+  * http://127.0.0.1:5000/amount
+  * http://127.0.0.1:5000/name/timo
 
 * Close virtual environment
   * `deactivate`
