@@ -29,7 +29,7 @@ To use application you'll need
   
 * Launch the application from command-line.
   * cd code  
-  * python app.py
+  * python code/app.py
   
 * Close virtual environment
   * deactivate
