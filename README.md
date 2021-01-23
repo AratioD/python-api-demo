@@ -1,37 +1,35 @@
 # python-api-demo
 
-Device requirements UNIX based command-line. Please note that for the MS Windows environment this README.md instructions might be different. 
+## Requirements
 
-To use API you'll need Postman or equivalent tool. Please find a download link below.
-* https://www.postman.com/downloads/
-* Please find my Postman API calls. https://www.postman.com/collections/640fed8fadedd245e89e
+* UNIX based command-line.
+* Python 3 installed in your machine.
+* Postman or equivalent tool. 
+  * https://www.postman.com/downloads/
+  * Please find my API calls here. https://www.postman.com/collections/640fed8fadedd245e89e
+* Please note that for the MS Windows environment this README.md instructions are different. 
 
+## Instructions
+* Please clone the repository in your machine.
+  * ``git clone https://github.com/AratioD/python-api-demo.git``
 
-Please clone your repository in your machine through command-line.
-* ``git clone https://github.com/AratioD/python-api-demo.git``
-
-To use application you'll need
-* Install Python virtual environment. Please see commands below.
+* Please install Python virtual environment.
     * `python3 -m pip install virtualenv`
   
-  
-* Create a virtual environment. Please see the command below.
+* Please create a virtual environment.
   * `virtualenv venv --python=python3.8`
   
 * Launch a virtual environment from UNIX command-line.
   *  `source venv/bin/activate`
-  * in Windows --> ./venv/Scripts/activate.bat`
   
-* Install Flask-RESTful
-  *  `pip install Flask-RESTful`
-  *  `pip install requests`
-  
-* Launch a virtual environment from Windows command-line.
-  *  `./venv/Scripts/activate.bat`
+* Please install all requirements in the virtual environment.
+  *  `pip install -r requirements.txt`
   
 * Launch the application from command-line.
-  * python app.py`
+  * ``python app.py``
   
+* Use API calls through Postman.
+
 * Close virtual environment
   * `deactivate`
   
