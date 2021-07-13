@@ -33,11 +33,15 @@
 * Use API calls through Postman.
 
 * Use API calls through browser.
-  * http://127.0.0.1:5000/amounts
-  * http://127.0.0.1:5000/names
-  * http://127.0.0.1:5000/amount
-  * http://127.0.0.1:5000/name/timo
+  * http://127.0.0.1:80/amounts
+  * http://127.0.0.1:80/names
+  * http://127.0.0.1:80/amount
+  * http://127.0.0.1:80/name/timo
 
 * Close virtual environment
   * `deactivate`
-  
+
+## Instructions Docker-Compose
+
+* Please install Python virtual environment.
+  * `docker-compose up`
