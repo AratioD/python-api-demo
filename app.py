@@ -76,4 +76,4 @@ api.add_resource(Name, '/name/<string:name>')
 if __name__ == '__main__':
     read_url()
     process_json()
-    app.run(port=5000)
+    app.run(host="0.0.0.0", port=80)
